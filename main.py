@@ -38,7 +38,7 @@ for i in range(pracownicyArr):
     brutto = pracownikData[1]
     pracownik=Pracownik(name, brutto)
     arr.append(pracownik.oblicz())
-    laczny_koszt=pracownik.return_koszt_calk()
+    laczny_koszt+=pracownik.return_koszt_calk()
 for wynik in arr:
     print(wynik)
 

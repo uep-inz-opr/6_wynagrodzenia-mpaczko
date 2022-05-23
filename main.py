@@ -25,7 +25,7 @@ class Pracownik:
         return result
 
     def return_koszt_calk(self):
-        return int(self.laczny_koszt)
+        return self.laczny_koszt
 
 
 pracownicyArr=int(input())
